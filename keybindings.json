@@ -8,7 +8,21 @@
     {
         "key": "ctrl+d",
         "command": "deleteRight",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "deleteWordStartLeft",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "deleteWordStartLeft",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+    },
+    {
+        "key": "alt+r",
+        "command": "extension.ghqOpenInNewWindow"
     },
     {
         "key": "ctrl+w l",
@@ -16,47 +30,43 @@
         "when": "!editorFocus"
     },
     {
-        "key": "alt+r",
-        "command": "extension.ghqOpenInNewWindow"
-    },
-    {
         "key": "ctrl+w h",
         "command": "workbench.action.focusPreviousGroup",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w l",
         "command": "workbench.action.focusNextGroup",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w j",
         "command": "workbench.action.focusBelowGroup",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w k",
         "command": "workbench.action.focusAboveGroup",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w v",
         "command": "workbench.action.splitEditorLeft",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w d",
         "command": "workbench.action.splitEditorDown",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w c",
         "command": "workbench.action.closeEditorsAndGroup",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w o",
         "command": "workbench.action.closeEditorsInOtherGroups",
-        "when": "editorFocus",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
 ]

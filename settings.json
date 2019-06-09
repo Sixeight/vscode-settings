@@ -23,17 +23,25 @@
         {
             "before": ["<C-g>"],
             "after": ["<Esc>"],
-        }
+        },
+        {
+            "before": ["<Leader>", "h"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": [":"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
+            "before": ["/"],
+            "commands": ["actions.find"]
+        },
     ],
     "vim.insertModeKeyBindings": [
         {
             "before": ["<C-g>"],
             "after": ["<Esc>"],
         },
-        {
-            "before": ["<C-d>"],
-            "after": ["<Delete>"],
-        }
     ],
     "vim.visualModeKeyBindings": [
         {
