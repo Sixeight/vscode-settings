@@ -1,0 +1,56 @@
+{
+    "editor.minimap.enabled": false,
+    "vim.sneak": true,
+    "vim.easymotion": true,
+    "editor.renderWhitespace": "boundary",
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.hlsearch": true,
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["g", "l"],
+            "commands": [
+                "workbench.action.nextEditorInGroup"
+            ]
+        },
+        {
+            "before": ["g", "h"],
+            "commands": [
+                "workbench.action.previousEditorInGroup"
+            ]
+        },
+        {
+            "before": ["<C-g>"],
+            "after": ["<Esc>"],
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-g>"],
+            "after": ["<Esc>"],
+        },
+        {
+            "before": ["<C-d>"],
+            "after": ["<Delete>"],
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<C-g>"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-n>": false,
+        "<C-e>": false,
+        "<C-a>": false,
+    },
+    "workbench.activityBar.visible": false,
+    "vim.leader": "<Space>",
+    "vim.autoSwitchInputMethod.defaultIM": "com.google.inputmethod.Japanese.Roman",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+    "vim.autoSwitchInputMethod.enable": true,
+    "workbench.startupEditor": "newUntitledFile",
+}

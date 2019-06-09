@@ -1,0 +1,62 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w l",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+r",
+        "command": "extension.ghqOpenInNewWindow"
+    },
+    {
+        "key": "ctrl+w h",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+w l",
+        "command": "workbench.action.focusNextGroup",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+w j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+w k",
+        "command": "workbench.action.focusAboveGroup",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+w v",
+        "command": "workbench.action.splitEditorLeft",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+w d",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+w c",
+        "command": "workbench.action.closeEditorsAndGroup",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+w o",
+        "command": "workbench.action.closeEditorsInOtherGroups",
+        "when": "editorFocus",
+    },
+]
