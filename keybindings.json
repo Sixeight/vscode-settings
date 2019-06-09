@@ -51,7 +51,7 @@
     },
     {
         "key": "ctrl+w v",
-        "command": "workbench.action.splitEditorLeft",
+        "command": "workbench.action.splitEditorRight",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
