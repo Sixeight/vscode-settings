@@ -27,7 +27,12 @@
     {
         "key": "ctrl+w l",
         "command": "workbench.action.focusFirstEditorGroup",
-        "when": "!editorFocus"
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+w ctrl+w",
+        "command": "workbench.action.switchWindow",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w h",
