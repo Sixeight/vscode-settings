@@ -58,6 +58,10 @@
             "before": ["!"],
             "commands": ["editWithShell.runCommand"]
         },
+        {
+            "before": [":"],
+            "commands": ["workbench.action.showCommands"]
+        },
     ],
     "vim.handleKeys": {
         "<C-n>": false,
@@ -71,4 +75,5 @@
     "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
     "vim.autoSwitchInputMethod.enable": true,
     "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
 }
