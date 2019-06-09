@@ -9,6 +9,12 @@
     "git.autoStash": true,
     "vim.normalModeKeyBindings": [
         {
+            "before": ["g", "n"],
+            "commands": [
+                "workbench.action.files.newUntitledFile"
+            ]
+        },
+        {
             "before": ["g", "l"],
             "commands": [
                 "workbench.action.nextEditorInGroup"
