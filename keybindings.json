@@ -69,4 +69,8 @@
         "command": "workbench.action.closeEditorsInOtherGroups",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
+    {
+        "key": "ctrl+cmd+j",
+        "command": "workbench.action.focusPanel"
+    },
 ]
