@@ -69,7 +69,7 @@
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
-        "key": "ctrl+w d",
+        "key": "ctrl+w s",
         "command": "workbench.action.splitEditorDown",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
