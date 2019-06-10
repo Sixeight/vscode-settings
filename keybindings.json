@@ -87,4 +87,34 @@
         "key": "ctrl+cmd+j",
         "command": "workbench.action.focusPanel"
     },
+    {
+        "key": "cmd+shift+]",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "panelFocus"
+    },
+    {
+        "key": "cmd+shift+[",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "panelFocus"
+    },
+    {
+        "key": "cmd+n",
+        "command": "workbench.action.terminal.new",
+        "when": "panelFocus"
+    },
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelFocus"
+    },
+    {
+        "key": "cmd+p",
+        "command": "workbench.action.problems.focus",
+        "when": "panelFocus"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.terminal.focus",
+        "when": "panelFocus"
+    },
 ]

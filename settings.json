@@ -82,4 +82,5 @@
     "workbench.colorTheme": "Material Theme High Contrast",
     "workbench.editor.enablePreview": false,
     "zenMode.hideTabs": false,
+    "files.trimTrailingWhitespace": true,
 }
