@@ -45,16 +45,31 @@
     },
     {
         "key": "ctrl+w h",
-        "command": "workbench.action.focusPreviousGroup",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
+        "key": "ctrl+w ctrl+h",
+        "command": "workbench.action.focusLeftGroup",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w l",
-        "command": "workbench.action.focusNextGroup",
+        "command": "workbench.action.focusRightGroup",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
+        "key": "ctrl+w ctrl+l",
+        "command": "workbench.action.focusRightGroup",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
         "key": "ctrl+w j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
+        "key": "ctrl+w ctrl+j",
         "command": "workbench.action.focusBelowGroup",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
@@ -64,7 +79,17 @@
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
+        "key": "ctrl+w ctrl+k",
+        "command": "workbench.action.focusAboveGroup",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
         "key": "ctrl+w v",
+        "command": "workbench.action.splitEditorRight",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
+        "key": "ctrl+w ctrl+v",
         "command": "workbench.action.splitEditorRight",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
@@ -74,12 +99,27 @@
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
+        "key": "ctrl+w ctrl+s",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
         "key": "ctrl+w c",
         "command": "workbench.action.closeEditorsAndGroup",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
+        "key": "ctrl+w ctrl+c",
+        "command": "workbench.action.closeEditorsAndGroup",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
         "key": "ctrl+w o",
+        "command": "workbench.action.closeEditorsInOtherGroups",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
+        "key": "ctrl+w ctrl+o",
         "command": "workbench.action.closeEditorsInOtherGroups",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },

@@ -34,14 +34,14 @@
             "before": ["<Leader>", "h"],
             "commands": [":nohl"]
         },
-        {
-            "before": [":"],
-            "commands": ["workbench.action.showCommands"]
-        },
-        {
-            "before": ["/"],
-            "commands": ["actions.find"]
-        },
+        // {
+        //     "before": [":"],
+        //     "commands": ["workbench.action.showCommands"]
+        // },
+        // {
+        //     "before": ["/"],
+        //     "commands": ["actions.find"]
+        // },
     ],
     "vim.insertModeKeyBindings": [
         {
@@ -58,10 +58,10 @@
             "before": ["!"],
             "commands": ["editWithShell.runCommand"]
         },
-        {
-            "before": [":"],
-            "commands": ["workbench.action.showCommands"]
-        },
+        // {
+        //     "before": [":"],
+        //     "commands": ["workbench.action.showCommands"]
+        // },
     ],
     "vim.handleKeys": {
         "<C-n>": false,
@@ -83,4 +83,6 @@
     "workbench.editor.enablePreview": false,
     "zenMode.hideTabs": false,
     "files.trimTrailingWhitespace": true,
+    "vim.useSystemClipboard": true,
+    "editor.parameterHints.enabled": false,
 }
