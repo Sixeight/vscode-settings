@@ -76,4 +76,6 @@
     "vim.autoSwitchInputMethod.enable": true,
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
 }

@@ -25,6 +25,10 @@
         "command": "extension.ghqOpenInNewWindow"
     },
     {
+        "key": "ctrl+;",
+        "command": "workbench.action.quickOpen"
+    },
+    {
         "key": "ctrl+w l",
         "command": "workbench.action.focusFirstEditorGroup",
         "when": "sideBarFocus"
