@@ -54,6 +54,11 @@
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
+        "key": "ctrl+w shift+h",
+        "command": "workbench.action.moveActiveEditorGroupLeft",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
         "key": "ctrl+w l",
         "command": "workbench.action.focusRightGroup",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
@@ -61,6 +66,11 @@
     {
         "key": "ctrl+w ctrl+l",
         "command": "workbench.action.focusRightGroup",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
+        "key": "ctrl+w shift+l",
+        "command": "workbench.action.moveActiveEditorGroupRight",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
@@ -74,6 +84,11 @@
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
+        "key": "ctrl+w shift+j",
+        "command": "workbench.action.moveActiveEditorGroupDown",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
         "key": "ctrl+w k",
         "command": "workbench.action.focusAboveGroup",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
@@ -81,6 +96,11 @@
     {
         "key": "ctrl+w ctrl+k",
         "command": "workbench.action.focusAboveGroup",
+        "when": "editorFocus && vim.active && vim.mode != 'Insert'",
+    },
+    {
+        "key": "ctrl+w shift+k",
+        "command": "workbench.action.moveActiveEditorGroupUp",
         "when": "editorFocus && vim.active && vim.mode != 'Insert'",
     },
     {
@@ -155,6 +175,11 @@
     {
         "key": "cmd+t",
         "command": "workbench.action.terminal.focus",
+        "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "workbench.action.togglePanel",
         "when": "panelFocus"
     },
 ]
