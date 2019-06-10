@@ -78,4 +78,8 @@
     "window.zoomLevel": 0,
     "editor.accessibilitySupport": "off",
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "workbench.editor.showTabs": true,
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.editor.enablePreview": false,
+    "zenMode.hideTabs": false,
 }

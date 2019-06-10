@@ -29,6 +29,11 @@
         "command": "workbench.action.quickOpen"
     },
     {
+        "key": "ctrl+,",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
+    },
+    {
         "key": "ctrl+w l",
         "command": "workbench.action.focusFirstEditorGroup",
         "when": "sideBarFocus"
