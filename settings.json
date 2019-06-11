@@ -68,7 +68,7 @@
         "<C-e>": false,
         "<C-a>": false,
     },
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "vim.leader": "<Space>",
     "vim.autoSwitchInputMethod.defaultIM": "com.google.inputmethod.Japanese.Roman",
     "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
@@ -85,6 +85,15 @@
     "vim.useSystemClipboard": true,
     "editor.parameterHints.enabled": false,
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
     "editor.renderControlCharacters": true,
+    "workbench.colorTheme": "Ayu Adapta",
+    "vim.easymotionMarkerHeight": 20,
+    "workbench.statusBar.visible": true,
+    "zenMode.hideStatusBar": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.colorCustomizations": {
+        "statusBar.foreground": "#A6B9CC",
+        "editorLineNumber.foreground": "#4E5863",
+    },
+    "editor.lineNumbers": "relative"
 }

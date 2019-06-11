@@ -182,4 +182,16 @@
         "command": "workbench.action.togglePanel",
         "when": "panelFocus"
     },
+    {
+        "key": "alt+=",
+        "command": "wwm.aligncode"
+    },
+    {
+        "key": "ctrl+cmd+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
 ]
