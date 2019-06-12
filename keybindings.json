@@ -30,7 +30,12 @@
     },
     {
         "key": "ctrl+,",
-        "command": "editor.action.addSelectionToNextFindMatch",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
+    },
+    {
+        "key": "ctrl+shift+,",
+        "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
     },
     {
