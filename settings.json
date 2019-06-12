@@ -7,7 +7,7 @@
     "vim.hlsearch": true,
     "git.autofetch": true,
     "git.autoStash": true,
-    "vim.normalModeKeyBindings": [
+    "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["g", "n"],
             "commands": [
@@ -21,9 +21,21 @@
             ]
         },
         {
+            "before": ["g", "L"],
+            "commands": [
+                "workbench.action.moveEditorRightInGroup"
+            ]
+        },
+        {
             "before": ["g", "h"],
             "commands": [
                 "workbench.action.previousEditorInGroup"
+            ]
+        },
+        {
+            "before": ["g", "H"],
+            "commands": [
+                "workbench.action.moveEditorLeftInGroup"
             ]
         },
         {
