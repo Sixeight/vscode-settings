@@ -95,5 +95,6 @@
         "statusBar.foreground": "#A6B9CC",
         "editorLineNumber.foreground": "#4E5863",
     },
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.enabled": false
 }

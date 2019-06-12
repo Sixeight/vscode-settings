@@ -29,6 +29,10 @@
         "command": "workbench.action.quickOpen"
     },
     {
+        "key": "ctrl+shift+;",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
         "key": "ctrl+,",
         "command": "editor.action.smartSelect.grow",
         "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
