@@ -68,7 +68,7 @@
         "<C-e>": false,
         "<C-a>": false,
     },
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "vim.leader": "<Space>",
     "vim.autoSwitchInputMethod.defaultIM": "com.google.inputmethod.Japanese.Roman",
     "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
