@@ -55,13 +55,13 @@
         //     "commands": ["actions.find"]
         // },
     ],
-    "vim.insertModeKeyBindings": [
+    "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": ["<C-g>"],
             "after": ["<Esc>"],
         },
     ],
-    "vim.visualModeKeyBindings": [
+    "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": ["<C-g>"],
             "after": ["<Esc>"]

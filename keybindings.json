@@ -30,7 +30,7 @@
     },
     {
         "key": "ctrl+shift+;",
-        "command": "workbench.action.gotoSymbol"
+        "command": "workbench.action.showCommands"
     },
     {
         "key": "ctrl+,",
