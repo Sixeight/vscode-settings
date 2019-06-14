@@ -112,5 +112,12 @@
     "workbench.quickOpen.preserveInput": true,
     "window.newWindowDimensions": "maximized",
     "openInGitHub.useCommitSHAInURL": true,
-    "openInGitHub.requireSelectionForLines": true
+    "openInGitHub.requireSelectionForLines": true,
+    "search.smartCase": true,
+    "search.collapseResults": "alwaysExpand",
+    "search.showLineNumbers": true,
+    "vim.visualstar": true,
+    "editor.defaultFormatter": "GitHub.vscode-pull-request-github",
+    "files.simpleDialog.enable": true,
+    "files.trimFinalNewlines": true
 }
