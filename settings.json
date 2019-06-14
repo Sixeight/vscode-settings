@@ -108,5 +108,9 @@
         "editorLineNumber.foreground": "#4E5863",
     },
     "editor.lineNumbers": "relative",
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.quickOpen.preserveInput": true,
+    "window.newWindowDimensions": "maximized",
+    "openInGitHub.useCommitSHAInURL": true,
+    "openInGitHub.requireSelectionForLines": true
 }
