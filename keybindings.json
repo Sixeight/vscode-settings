@@ -33,6 +33,10 @@
         "command": "workbench.action.showCommands"
     },
     {
+        "key": "ctrl+c f",
+        "command": "workbench.action.files.openFileFolder"
+    },
+    {
         "key": "ctrl+,",
         "command": "editor.action.smartSelect.grow",
         "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
