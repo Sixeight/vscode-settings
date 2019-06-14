@@ -108,7 +108,7 @@
         "editorLineNumber.foreground": "#4E5863",
     },
     "editor.lineNumbers": "relative",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "workbench.quickOpen.preserveInput": true,
     "window.newWindowDimensions": "maximized",
     "openInGitHub.useCommitSHAInURL": true,
@@ -119,5 +119,6 @@
     "vim.visualstar": true,
     "editor.defaultFormatter": "GitHub.vscode-pull-request-github",
     "files.simpleDialog.enable": true,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "breadcrumbs.symbolPath": "off"
 }

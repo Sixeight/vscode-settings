@@ -34,7 +34,18 @@
     },
     {
         "key": "ctrl+c f",
-        "command": "workbench.action.files.openFileFolder"
+        "command": "breadcrumbs.focusAndSelect",
+        "when": "editorFocus",
+    },
+    {
+        "key": "ctrl+l",
+        "command": "breadcrumbs.focusNext",
+        "when": "breadcrumbsActive && breadcrumbsVisible",
+    },
+    {
+        "key": "ctrl+h",
+        "command": "breadcrumbs.focusPrevious",
+        "when": "breadcrumbsActive && breadcrumbsVisible",
     },
     {
         "key": "ctrl+,",
